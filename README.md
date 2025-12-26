@@ -11,7 +11,6 @@
 ### Stationarity
 + Augmented Dickey Fuller (ADF) Test
 + KPSS test
-+ Whiteness test
 ### Cointegration
 + Johansen Trace Test
 ### Forecasting
