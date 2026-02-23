@@ -1,6 +1,6 @@
 # Inflation, Wages and Productivity (UK, ONS) #
 
-## Exploratory analysis
+## EDA 
 + Line plots,
 + MA (Moving Average) Plots
 + Static Correlation
@@ -8,19 +8,27 @@
 + Seasonal Plots (Business cycle)
 
 ## Analysis
-### Stationarity
+### 1. Stationarity Tests
 + Augmented Dickey Fuller (ADF) Test
-+ KPSS test
-### Cointegration
++ KPSS Test
+### 2. Cointegration Tests
 + Johansen Trace Test
-### Forecasting
-+ VECM Model
-+ Pseudo OOS RMSE forecast accuracy
+### 3. Model Specification
++ Optimal Lag Selection
++ Final VAR specification
+### 4. Diagnostics
++ Portmanteau Test
++ Stability Test
++ Normality Test
+### 5. Dynamic Analysis
++ Granger Causality Tests
++ Impulse Response Functions (IRF)
++ Forecast Error Variance Decomposition (FEVD)
 
 ## Repo Structure
 + 'data/' -> Pre-processed and raw datasets
 + 'data_exploration.ipynb' -> Jupyter notebook of pre-processing and exploratory plots
-+ 'model.ipynb' -> Jupyter notebook of diagnostic tests and VECM forecasting model
++ 'model.ipynb' -> Jupyter notebook of diagnostic tests and VAR model
 
 ## Reproduce Results
 ### Step 1) Set up Environment
